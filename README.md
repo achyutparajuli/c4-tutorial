@@ -1,15 +1,19 @@
 ### Interested Jobs:
 
--  SysAdmin
+1) SysAdmin
+
 _Deploy services, Server Configurations, Security audits and monitoring & Automation_
 
-- SOC Analyst
+2) SOC Analyst
+
 _Log analysis, Incident response, threat intelligence, intrusion detection & endpoint security_
 
-- Security Analyst
+3) Security Analyst
+
 _System Pentesting and VAPT_
 
-- Python Developer
+4) Python Developer
+
 _Automation, Unit Testing & Django Backend Development_
 
 ### Links:

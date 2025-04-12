@@ -1,1 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mandip Das | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
 
+    body {
+      background: linear-gradient(to bottom right, #fdfdfd, #f0f0f5);
+      padding: 40px 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      padding: 24px;
+      transition: all 0.3s ease;
+      text-align: left;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      font-size: 1.25rem;
+      color: #222;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    .buttons a {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .linkedin {
+      background: #0a66c2;
+    }
+
+    .linkedin:hover {
+      background: #084a9a;
+    }
+
+    .upwork {
+      background: #14a800;
+    }
+
+    .upwork:hover {
+      background: #0e7e00;
+    }
+
+    .cv {
+      background: #950000;
+      color: white;
+      margin-top: 10px;
+    }
+
+    .cv:hover {
+      background: #555;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #333;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="Mandip Das.jpg" alt="Mandip Das" class="profile-img" />
+    <h1>Mandip Das</h1>
+    <p class="intro">Hi, I’m Mandip - A creative designer & developer passionate about crafting intuitive digital experiences.</p>
+    <h2 class="section-title">Interested Jobs</h2>
+    
+    <div class="cards">
+      <div class="card">
+        <h2>UI/UX Designer</h2>
+        <ul>
+          <li>I love designing clean and intuitive interfaces that make users feel at home.</li>
+          <li>I focus on understanding real user needs to create meaningful experiences.</li>
+          <li>Blending simplicity with functionality is what drives my design choices.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Graphics Designer</h2>
+        <ul>
+          <li>I enjoy bringing ideas to life visually, whether it's a brand or a campaign.</li>
+          <li>I believe great design communicates clearly and connects emotionally.</li>
+          <li>From bold posters to subtle icons, I design with purpose and personality.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Web Developer</h2>
+        <ul>
+          <li>I build responsive, fast-loading websites that work across all devices.</li>
+          <li>I write clean, efficient code and care deeply about the user experience.</li>
+          <li>I enjoy turning static designs into dynamic, interactive web apps.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <a href="https://www.linkedin.com/in/mandip-das/" target="_blank" class="linkedin">LinkedIn</a>
+      <a href="https://www.upwork.com/freelancers/mandipd5" target="_blank" class="upwork">Upwork</a>
+      <a href="Mandip Das CV.pdf" download class="cv">Download CV</a>
+    </div>
+  </div>
+</body>
+</html>
